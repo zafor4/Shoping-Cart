@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.maindiv{
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+}
+
+.product{
+    background-color: aqua;
+    width: 50%;
+    height: auto;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 0 10px 0 10px;
+    margin-bottom: 10px;
+}
+
+.item p{
+    padding: 10px;
+    margin: 0;
+}
